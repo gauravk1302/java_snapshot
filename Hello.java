@@ -8,7 +8,7 @@ static -> means we are creating the class not the object of the class
 
 file name must match with the class name 
 
-compile ->
+compile ->java file
 run -> class file
 
 string[] args -> command line argument
