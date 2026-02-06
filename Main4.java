@@ -6,7 +6,7 @@ class StaticExample {
 
     static void display() {
         show();
-        System.out.println("I am staic display");
+        System.out.println("I am static display");
     }
 
     static void show() {
@@ -19,8 +19,8 @@ public class Main4 {
         StaticExample S1 = new StaticExample();
         StaticExample.display();
         StaticExample.show();
-        // StaticExample.normal();
-        // Object will be made
-
+        // StaticExample.normal(); 
+        // // Invalid: Cannot call instance method from class
+        S1.normal(); // Valid: Calling instance method using the object S1
     }
 }
