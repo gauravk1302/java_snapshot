@@ -27,7 +27,7 @@ class Addition {
     }
 }
 
-public class Main2 {
+public class Main3 {
     public static void main(String[] args) {
         Addition obj1 = new Addition(10, 20);
         obj1.display();
