@@ -24,6 +24,6 @@ public class Main {
         // C.privateMethod();
         // Not Accessible
 
-        //If wanted to access call this method which is accessible by child class 
+        //If wanted to access, call this method in the class which is accessible by the child class 
     }
 }
