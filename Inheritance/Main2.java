@@ -14,7 +14,7 @@ class Child1 extends Parent1{
     }
 }
 
-
+//If use protected modifier then it will access by the child class or subclass 
 
 
 public class Main2 {
