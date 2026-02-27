@@ -21,6 +21,5 @@ public class Nested {
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         }
-
     }
 }
