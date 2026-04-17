@@ -6,8 +6,6 @@ public class Main {
         System.out.println("Integer wrapper" + I);
         boolean v = I instanceof Integer;
         System.out.println(v);
-
-
         int b = 20;
         Integer I1 = b;
         System.out.println("Autoboxing " + I1);
